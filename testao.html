@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Sobre Mim</title>
+  <!-- Bootstrap CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet">
+  <style>
+    body {
+      background-color: #f8f9fa; /* Cor de fundo geral */
+      color: #ffd000; /* Cor do texto */
+    }
+    .container {
+      text-align: center; /* Alinhamento centralizado */
+    }
+    .header-image {
+      margin-top: 50px; /* Margem superior para espaçamento */
+    }
+    .header-image img {
+      max-width: 100%; /* Garantir que a imagem não ultrapasse a largura do container */
+    }
+    .jumbotron {
+      background-color: #ff07d6; /* Cor de fundo da jumbotron */
+      color: #b3009b; /* Cor do texto na jumbotron */
+    }
+    .btn-primary {
+      background-color: #0056b3; /* Cor de fundo do botão */
+      border-color: #0056b3; /* Cor da borda do botão */
+    }
+    .btn-primary:hover {
+      background-color: #004080; /* Cor de fundo do botão ao passar o mouse */
+      border-color: #004080; /* Cor da borda do botão ao passar o mouse */
+    }
+  </style>
+</head>
+<body>
+  <div class="container mt-5">
+    <div class="header-image">
+      <img src="data:image/jpeg;base64,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" alt="Imagem de cabeçalho">
+    </div>
+    <!DOCTYPE html>
+    <html lang="pt-br">
+    <head>
+      <meta charset="UTF-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <title>Entrevista de Emprego</title>
+      <!-- Bootstrap CSS -->
+      <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet">
+      <style>
+        body {
+          background-color: #d400ff;
+          color: #212529;
+        }
+        .jumbotron {
+          background-color: #ff00d4;
+          color: #000000;
+        }
+        .nav-link {
+          color: #000000;
+        }
+        .nav-link.active {
+          color: #5f0b0b;
+          background-color: #fffb00;
+          border-color: #09ff00;
+        }
+        .tab-content {
+          border: 1px solid #0077ff;
+          border-top: none;
+          padding: 20px;
+        }
+      </style>
+    </head>
+    <body>
+      <div class="container mt-5">
+        <ul class="nav nav-tabs" id="entrevistaTabs" role="tablist">
+          <li class="nav-item" role="presentation">
+            <button class="nav-link active" id="sobreMim-tab" data-bs-toggle="tab" data-bs-target="#sobreMim" type="button" role="tab" aria-controls="sobreMim" aria-selected="true">Sobre Mim</button>
+          </li>
+          <li class="nav-item" role="presentation">
+            <button class="nav-link" id="razoes-tab" data-bs-toggle="tab" data-bs-target="#razoes" type="button" role="tab" aria-controls="razoes" aria-selected="false">Razões para Contratação</button>
+          </li>
+        </ul>
+        <div class="tab-content" id="entrevistaTabsContent">
+          <div class="tab-pane fade show active" id="sobreMim" role="tabpanel" aria-labelledby="sobreMim-tab">
+            <div class="jumbotron">
+              <h2>Sobre Mim</h2>
+              <p>Meu nome é Guilherme e sou um estudante do 9 ano do colégio casa escola espaço livre.</p>
+              <p>estou sempre buscando aprender mais e me desenvolver profissionalmente.</p>
+            </div>
+          </div>
+          <div class="tab-pane fade" id="razoes" role="tabpanel" aria-labelledby="razoes-tab">
+            <div class="jumbotron">
+              <h2>Razões para Contratação</h2>
+              <p>Aqui estão algumas razões pelas quais acredito que seria um ótimo candidato para esta posição:</p>
+              <ul>
+                <li>Razão 1</li>
+                <li>Razão 2</li>
+                <li>Razão 3</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    
+      <!-- Bootstrap JavaScript (opcional, apenas se você precisar de funcionalidades JS) -->
+      <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
+    </body>
+    </html>
+
+    <div class="container">
+      <h1 class="mt-5">Formulário de Contato</h1>
+      <form>
+        <div class="form-group">
+          <label for="nome">Nome:</label>
+          <input type="text" class="form-control" id="nome" placeholder="Digite seu nome">
+        </div>
+        <div class="form-group">
+          <label for="email">Email:</label>
+          <input type="email" class="form-control" id="email" placeholder="Digite seu email">
+        </div>
+        <div class="form-group">
+          <label for="mensagem">Mensagem:</label>
+          <textarea class="form-control" id="mensagem" rows="5" placeholder="Digite sua mensagem"></textarea>
+        </div>
+        <button type="submit" class="btn btn-primary">Enviar</button>
+      </form>
+    </div>
+  </body>
+  </html>
+
+  <!-- Bootstrap JavaScript (opcional, apenas se você precisar de funcionalidades JS) -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
+
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  
+  <!-- Incluindo Bootstrap CSS -->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+  <!-- Seu CSS personalizado -->
+  <link rel="stylesheet" href=".css">
+</head>
+<body>
+  <header class="text-center py-5">
+
+  </header>
+  <main class="container">
+  
+  </main>
+  <!-- Incluindo Bootstrap JS -->
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+</html>
+
+</body>
+</html>
